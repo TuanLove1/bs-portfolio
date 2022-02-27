@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logo i{
+    color: green;
+}
+
+.logo span{
+    font-size: 2rem;
+}
+.menu li{
+    margin: 0 0.5rem;
+}
+.menu li::after{
+    content: '';
+    width: 0;
+    background-color: green;
+    height: 2px;
+    display: block;
+    transition: all 0.5s;
+}
+.menu li.active::after{
+    width: 100%;
+}
+.menu li:hover::after{
+    width: 100%;
+}
+.nav-item .active, .menu li:hover a {
+    color: green !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.carousel-control-next{
+    width: 5%;
+}
+/* Carousel */
+.carousel__caption{
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-item:nth-child(1){
+    background-image: url('../img/finland.jpg');
+}
+.carousel-item:nth-child(2){
+    background-image: url('../img/mountains.jpg');   
+}   
+.carousel-item:nth-child(3){
+    background-image: url('../img/mountains-1.jpg');   
+}
+.carousel-item{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.carousel__thumb img{
+    border-radius: 50%;
+    width: 100%;
+}
+.carousel__thumb{
+    width: 140px;
+    margin: 0 auto;
+}
+.nav-pills .nav-link.active{
+    background-color: green !important;
+    color: white !important;
+    border-radius: 5px green !important;
+}
+
+.project__title{
+    margin:50px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.project__title p{
+    color: #585858;
+}
+.navlink {
+    color: #1a1d2d;
+    border: 1px solid #1a1d2d;
+    margin: 0 5px;
+}
+.card{
+    cursor: pointer;
+
+}
+.nav-pills{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.available{
+    background: url('../img/3.jpg') no-repeat center;
+    background-size: cover;
+    padding: 100px 0 120px;
+    background-attachment: fixed;
+    position: relative;
+}
+.available__content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.available__content p{
+    padding-bottom: 40px;
+}
+.item{
+    margin-bottom: 25px;
+}
+.itemDesign{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 35px;
+    transition: .3s;
+    border-radius: 10px;
+    background: rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.1);
+    transition: all .5s;
+    color: white;
+    backdrop-filter: blur(3px);
+}
+.itemDesign:hover{
+    background-color: black;
+}
+.itemDesign i{
+    font-size: 40px;
+    color: green;
+}
+.itemDesign h2 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    padding-top: 25px;
+    font-weight: 800;
+}
+.itemDesign p{
+        padding-top: 15px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+}
+.ourleft{
+    background: rgba(255,255,255,.25);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,.18);
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 30%);
+    padding: 45px;
+}
+.ourleft h1{
+    font-size: 36px;
+    line-height: 42px;
+    color: #1a1d2d;
+    font-weight: 600;
+}
+.ourleft p{
+    color: #585858;
+    line-height: 24px;
+}
+.ourIcon img{
+    max-width: 100%;
+    height: auto;
+}
+.ourRight{
+    padding: 45px 0;
+}
+.ourachievement{
+    background-image: url('../img/memphis_3.png');
+    margin-top: 50px;
+    margin-left: 50px;
+    background-position: center;
+    background-size: cover;
+
+}
+footer{
+    background-color: #222;
+}
+.footer__icon {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom:  1px solid #585858;
+}
+.footer__icon a {
+    margin-right: 10px;
+    color: #aaa;
+}
+.footer__icon i {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 50%;
+    border: 1px solid #454545;
+    transition: all .5s;
+    text-align: center;
+    color: #aaa;
+}
+.footer__copyright{
+    color: #aaa;
+    text-align: center;
+    padding-bottom: 20px;
+}

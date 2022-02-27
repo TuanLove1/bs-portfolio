@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+
+    <header class="container">
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand logo" href="#">
+          <i class="fa fa-dice-d20 fa-2x"></i>
+          <span>CyberPortfolio</span>
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto menu">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conntact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Carousel  -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption">
+            <div class="carousel__thumb">
+              <img src="./img/01-3.jpg" alt="" />
+            </div>
+            <h3>Los Angeles</h3>
+            <p>We had such a great time in LA!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <div class="carousel__thumb">
+              <img src="./img/02-3.jpg" alt="" />
+            </div>
+            <h3>Los Angeles</h3>
+            <p>We had such a great time in LA!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption">
+            <div class="carousel__thumb">
+              <img src="./img/03-3.jpg" alt="" />
+            </div>
+            <h3>Los Angeles</h3>
+            <p>We had such a great time in LA!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <!-- Project -->
+    <div class="project__title">
+      <h1>I Love What I Do</h1>
+      <p>
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+        cubilia Curae; Nulla mollis dapibus<br />
+        nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis
+        quam.Vestibulum ante ipsum primis in faucibus<br />
+        orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc
+      </p>
+    </div>
+    <div class="project__content container">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active navlink" data-toggle="pill" href="#allproject"
+            >All project</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navlink" data-toggle="pill" href="#menu1">illustration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navlink" data-toggle="pill" href="#menu2">Photography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navlink" data-toggle="pill" href="#menu3">Website</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="allproject">
+          <div class="row">
+            <div class="col-md-4 item">
+              <div class="card">
+                <div class="card__item">
+                  <img class="card-img-top" src="./img/g1.jpg" alt="" />
+                  <div class="card-body">
+                    <h4 class="card-title">Apologetic robot holding flowers</h4>
+                    <p class="card-text">Branding</p>
+                  </div>
+                </div>                  
+              </div>
+            </div>
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g2.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g3.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g4.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g5.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g6.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane container fade" id="menu1">
+          <div class="row">
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g1.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g2.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g3.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane container fade" id="menu2">
+          <div class="row">
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g3.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g4.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane container fade" id="menu3">
+          <div class="row">
+            <div class="col-md-4 item">
+              <div class="card">
+                <img class="card-img-top" src="./img/g6.jpg" alt="" />
+                <div class="card-body">
+                  <h4 class="card-title">Apologetic robot holding flowers</h4>
+                  <p class="card-text">Branding</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="available">
+      <div class="available__content">
+        <h1>I'm Available For Hire</h1>
+        <p>
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus<br />
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+        </p>
+      </div>
+      <div class="available__item container">
+        <div class="row">
+          <div class="col-4">
+            <div class="itemDesign">
+              <i class="fa fa-paint-brush"></i>
+              <h2>Design</h2>
+              <p>
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="itemDesign">
+              <i class="fa fa-shekel-sign"></i>
+              <h2>Design</h2>
+              <p>
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="itemDesign">
+              <i class="fa fa-camera"></i>
+              <h2>Design</h2>
+              <p>
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ourachievement">
+      <div class="row container">
+        <div class="col-5">
+          <div class="ourleft">
+            <h1>Our Achivement <br />and Award</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+          </div>
+        </div>
+        <div class="col-7">
+          <div class="ourRight">
+            <p>
+              Luctus porta semper aptent morbi. Vestibulum lectus tempus augue
+              dictumst enim <br />
+              commodo facilisis. Mus laoreet scelerisque habitant urna dui sem
+              diam. Purus dis nam eget. <br />
+              Scelerisque placerat lectus lorem etiam. Elementum integer
+              phasellus lectus.
+            </p>
+            <div class="row ourIcon">
+              <div class="col">
+                <img src="./img/award-1.png" alt="" />
+              </div>
+              <div class="col">
+                <img src="./img/award-2.png" alt="" />
+              </div>
+              <div class="col">
+                <img src="./img/award-3.png" alt="" />
+              </div>
+              <div class="col">
+                <img src="./img/award-4.png" alt="" />
+              </div>
+              <div class="col">
+                <img src="./img/award-5.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer__icon">
+          <a href="">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <div class="footer__copyright">
+          <p>© 2021 CyberPortfolio. All rights reserved | Designed by CyberSoft</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
